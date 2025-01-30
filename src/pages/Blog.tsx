@@ -1,17 +1,16 @@
-import React, { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-interface BlogPost {
-  id: string;
-  title: string;
-  date: string;
-}
+const GITHUB_JSON_URL = "https://raw.githubusercontent.com/blouro/websiteBlog-posts/master/posts.json";
 
 const Blog: React.FC = () => {
-  const [posts, setPosts] = useState<BlogPost[]>([]);
+  const [posts, setPosts] = useState<{ id: string; title: string; date: string }[]>([]);
 
   useEffect(() => {
-    import("../content/config.json").then((config) => setPosts(config.blogPosts));
+    fetch(GITHUB_JSON_URL)
+      .then((res) => res.json())
+      .then((data) => setPosts(data))
+      .catch((err) => console.error("Erro ao carregar posts:", err));
   }, []);
 
   return (
