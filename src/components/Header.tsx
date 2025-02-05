@@ -15,7 +15,8 @@ const Header: React.FC = () => {
 
   return (
     <header>
-      <nav>
+      <nav className="bg-blue-500 text-white p-4 flex justify-between">
+        <h1 className="text-xl">my Blog</h1>
         {navigation.map((item, index) => (
           <Link key={index} to={item.path} style={{ margin: "0 10px" }}>
             {item.name}
