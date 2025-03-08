@@ -1,33 +1,208 @@
 {
-    "siteTitle": "My Dinamic Bloc",
-    "description": "This is a blog built with Vite, React, TypeScript and Markdown.",
-    "navigation": [
-      { "name": "Home", "path": "/" },
-      { "name": "About", "path": "/about" },
-      { "name": "Blog", "path": "/blog" }
-    ],
-    "aboutPage": {
-      "title": "About Me",
-      "content": "I'm a developer and I love to learn new things"
-    },
-    "footer": {
-        "copyright": "© 2025 My Website. All rights reserverd.",
-        "socialLinks": [
-            { "name": "GitHub", "url": "https://github.com/BLouro" },
-            { "name": "LinkedIn", "url": "https://www.linkedin.com/in/bernardo-louro-609b13183/" },
-            { "name": "BlueSky", "url": "https://bsky.app/profile/bernardolouro.pt" }
-        ]
-    },
-    "blogPosts": [
+   "mainPageTitle": "Welcome to bernardolouro.pt",
+   "siteTitle": "Bernardo Louro",
+   "mainPageDescription": "I'm a Software developer based on Lisbon Portugal 🇵🇹 Using a varioty of tools, mainly from the Java ecosystem.",
+   "mainPageAbout": "I have experience in the financial and insurance sectors, with a strong interest in backend development and system architecture. Passionate about learning new technologies, I stay up to date with industry trends. I have a particular appreciation for the Java ecosystem and its open-source projects.",
+   "mainPageExt": "Fell free to connect with me via my social media or via email:",
+   "email" : "bernardo.louro@icloud.com",
+   "navigation": [
       {
-        "id": "post1",
-        "title": "Build my post1",
-        "date": "2025-01-01"
+         "name": "Home",
+         "path": "/"
       },
       {
-        "id": "post2",
-        "title": "Build my post2",
-        "date": "2025-01-02"
+         "name": "Blog",
+         "path": "/blog"
       }
-    ]
-  }
+   ],
+   "aboutPage": {
+      "title": "About Me",
+      "content": "I'm a developer and I love to learn new things"
+   },
+   "footer": {
+      "copyright": "© 2025 Bernardo Louro. All rights reserverd.",
+      "socialLinks": [
+         {
+            "name": "GitHub",
+            "url": "https://github.com/BLouro"
+         },
+         {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/bernardo-louro-609b13183/"
+         },
+         {
+            "name": "BlueSky",
+            "url": "https://bsky.app/profile/bernardolouro.pt"
+         },
+         {
+            "name": "Medium",
+            "url": "https://medium.com/@bernardoalouro98"
+         }
+      ]
+   },
+   "techStack": [
+      {
+         "title": "Back-End Development",
+         "technologies": [
+            {
+               "name": "Java",
+               "logo": "/logos/Java.svg"
+            },
+            {
+               "name": "Spring",
+               "logo": "/logos/Spring.svg"
+            },
+            {
+               "name": "Quarkus",
+               "logo": "/logos/Quarkus.svg"
+            },
+            {
+               "name": "Apache Spark",
+              "logo": "/logos/Apache Spark.svg"
+            },
+            {
+               "name": "Apache Hadoop",
+               "logo": "/logos/Apache Hadoop.svg"
+            },
+            {
+               "name": "Hibernate",
+               "logo": "/logos/Hibernate.svg"
+            },
+            {
+               "name": "Maven",
+               "logo": "/logos/maven.svg"
+            },
+            {
+               "name": "Kafka",
+               "logo": "/logos/Apache Kafka.svg"
+            },
+            {
+               "name": "Redis",
+               "logo": "/logos/Redis.svg"
+            },
+            {
+               "name": "PostgreSQL",
+              "logo": "/logos/PostgresSQL.svg"
+            },
+            {
+               "name": "SQL Server",
+               "logo": "/logos/Microsoft SQL Server.svg"
+            },
+            {
+               "name": "Oracle",
+               "logo": "/logos/Oracle.svg"
+            },
+            {
+               "name": "JUnit",
+               "logo": "/logos/JUnit.svg"
+            }
+         ]
+      },
+      {
+         "title": "DevOps & Cloud",
+         "technologies": [
+            {
+               "name": "AWS",
+               "logo": "/logos/AWS.svg"
+            },
+            {
+               "name": "Azure",
+               "logo": "/logos/Kubernetes.svg"
+            },
+            {
+               "name": "Terraform",
+               "logo": "/logos/Terraform.svg"
+            },
+            {
+               "name": "Git",
+               "logo": "/logos/Git.svg"
+            },
+            {
+               "name": "GitHub",
+               "logo": "/logos/GitHub.svg"
+            },
+            {
+               "name": "GitLab",
+               "logo": "/logos/GitLab.svg"
+            },
+            {
+               "name": "Jenkins",
+               "logo": "/logos/Jenkins.svg"
+            },
+            {
+               "name": "SonarQube",
+               "logo": "/logos/SonarQube.svg"
+            },
+            {
+               "name": "Maven Nexus",
+               "logo": "/logos/nexus.png"
+            },
+            {
+               "name": "Docker",
+               "logo": "/logos/Docker.svg"
+            },
+            {
+               "name": "Podman",
+               "logo": "/logos/Podman.svg"
+            }
+         ]
+      },
+      {
+         "title": "Others",
+         "technologies": [
+            {
+               "name": "Jira",
+               "logo": "/logos/Jira.svg"
+            },
+            {
+               "name": "Linux",
+               "logo": "/logos/Linux.svg"
+            },
+            {
+               "name": "Shell Scripting",
+               "logo": "/logos/Bash.svg"
+            },
+            {
+               "name": "Eclipse",
+               "logo": "/logos/Eclipse IDE.svg"
+            },
+            {
+               "name": "Intelij",
+               "logo": "/logos/IntelliJ IDEA.svg"
+            },
+            {
+               "name": "Vscode",
+               "logo": "/logos/vscode.svg"
+            },
+            {
+               "name": "Windows",
+               "logo": "/logos/windows.svg"
+            },
+            {
+               "name": "macOS",
+               "logo": "/logos/Apple.svg"
+            },
+            {
+               "name": "Homebrew",
+               "logo": "/logos/Homebrew.svg"
+            },
+            {
+               "name": "React",
+               "logo": "/logos/React.svg"
+            },
+            {
+               "name": "Vite",
+               "logo": "/logos/Vite.js.svg"
+            },
+            {
+               "name": "JSON",
+               "logo": "/logos/YAML.svg"
+            },
+            {
+               "name": "YAML",
+               "logo": "/logos/JSON.svg"
+            }
+         ]
+      }
+   ]
+}
