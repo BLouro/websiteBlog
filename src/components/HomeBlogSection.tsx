@@ -15,13 +15,11 @@ const HomeBlogSection: React.FC = () => {
           return new Date(b.date).getTime() - new Date(a.date).getTime();
         });
 
-        // Filtrar apenas os 3 primeiros posts
         setPosts(sortedPosts.slice(0, 3));
       })
       .catch((err) => console.error("Failed to load posts:", err));
   }, []);
 
-  // Get the 3 most recent posts
   const recentPosts = posts.slice(0, 3);
 
   return (
