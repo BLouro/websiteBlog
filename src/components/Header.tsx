@@ -31,7 +31,7 @@ const Header: React.FC = () => {
           
           <div className="flex justify-start">
             <Link to="/">
-              <h1 className="text-slate-800 dark:text-slate-100 text-5xl font-extrabold">
+              <h1 className="text-slate-50 dark:text-slate-100 text-5xl font-extrabold">
                 {homeConfig?.siteTitle}
               </h1>
             </Link>

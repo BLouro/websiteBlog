@@ -46,7 +46,7 @@ const Home: React.FC = () => {
           <TechCarousels />
         </div>
       </div>
-      <div className="bg-neutral-50 dark:bg-dark-backgroud shadow-xl rounded-xl">
+      <div className="md:bg-neutral-50 dark:bg-dark-backgroud md:shadow-xl md:rounded-xl">
         <HomeBlogSection />
       </div>
     </div>
