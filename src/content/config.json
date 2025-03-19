@@ -195,11 +195,11 @@
                "logo": "/logos/Vite.js.svg"
             },
             {
-               "name": "JSON",
+               "name": "YAML",
                "logo": "/logos/YAML.svg"
             },
             {
-               "name": "YAML",
+               "name": "JSON",
                "logo": "/logos/JSON.svg"
             }
          ]
