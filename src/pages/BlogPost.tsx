@@ -53,7 +53,7 @@ const BlogPost = () => {
   if (!post) return <div className="text-center text-gray-500">Loading...</div>;
 
   return (
-    <div className="max-w-4xl mx-auto p-6 mt-10 space-y-6">
+    <div className="p-5 mt-5 md:max-w-4xl md:mx-auto">
       <img src={`${COVERS_REPO_URL}${post.coverImage}`} alt={post.title} className="w-full h-64 object-cover rounded-md" />
       <h1 className="text-4xl font-bold text-slate-800 dark:text-slate-100">{post.title}</h1>
       <div className="flex items-center text-sm text-gray-600 dark:text-gray-400 space-x-4">

@@ -29,8 +29,8 @@ const Home: React.FC = () => {
               <img src={MyLogo} alt="Profile pic" className="w-70 rounded-full mx-auto xl:mx-0" />
             </div>
             <div className="content-center text-center">
-              <h2 className="text-5xl">
-                👋&nbsp;<span className="bg-slate-800 dark:bg-slate-100 bg-clip-text font-extrabold text-transparent ">{homeConfig.mainPageTitle}</span>
+              <h2 className="text-4xl lg:text-5xl">
+                👋&nbsp;<span className="bg-slate-800 dark:bg-slate-100 bg-clip-text font-extrabold text-transparent">{homeConfig.mainPageTitle}</span>
               </h2>
               <p className="pt-5 text-justify">{homeConfig.mainPageDescription}</p> 
             </div>          
